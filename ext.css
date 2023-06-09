@@ -1,0 +1,84 @@
+h3{
+    color:darkolivegreen;
+    background-color: azure;
+    /* font weght and text decoration properties are also there like colored underline overlien or strike through  */
+    /* well always use semicolon after every property mentioned  */
+    
+}
+h1{
+    color:white;
+}
+h4{
+    color:aliceblue;
+    text-align: center;
+    background-color: chocolate;
+    text-decoration: rgb(125, 178, 230) underline wavy;
+    text-decoration-thickness: 2px;/* can set the thickness of underline*/
+    font-size :large
+}
+p{
+    color:aquamarine;
+}
+body{
+    background-color: black;
+}
+a{
+    /* can apply text deco on anchor tag also */
+}
+#aisehi{
+    background-color :khaki;
+    color :cadetblue;
+    font-size: larger;
+    text-decoration: cadetblue dashed;
+    text-decoration-thickness:4px ;
+}
+.p{ /* !   dot operator(.) is used to select a class */
+    background-color:darksalmon;
+    color:blueviolet;
+
+}
+.q{
+    background-color: red;
+    color:blue;
+}
+li{
+    background-color:cornsilk;
+    color:darkorange;
+}
+div>h4{   /*? it is used to style the li of div */
+background-color: darkslategrey;
+color:azure;
+} 
+div>ol>li{   /*? it is used to style the li of div */
+    background-color: darkslategrey;
+    color:azure;
+    } 
+h2+button{ /*! here what is happenning is that all the buttons just after h2 will be stylised this way*/
+
+    background-color:red;
+    color : blue;
+    font-size: large;
+}
+/* lec 74 attribute selector  */
+input[type = "text"]{
+    color:yellow;
+    background-color: black;
+}
+input[type = "email"]{
+    color:black;
+    background-color: white;
+}
+section[class = "a"]{
+    color:white;
+    background-color: rgb(186, 90, 90);
+}
+section.b{
+    color:wheat;
+    background-color: green;
+}
+button:hover{
+    color:green;
+    background-color:yellow ;
+}
+
+/* // now for selecting a class just w */

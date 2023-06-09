@@ -1,0 +1,173 @@
+<!-- lec 58 what is css -->
+<!--* css stands for cascading style sheets -->
+<!-- * language(not a programming language) that is used to describe the appearnce or how the document should be represented -->
+<!-- * -->
+<!-- // -->
+<!-- ? -->
+<!-- ! -->
+<!-- t -->
+
+<!--  
+   ! CSS Rules
+
+? 1) selector{
+?    property : value
+?   }
+t eg 
+t    h1{
+t    color :purple
+t  }
+
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css using style element*/
+        h2 {
+            color: burlywood
+        }
+    </style>
+    <link rel="stylesheet" href="ext.css">
+</head>
+
+<body>
+    <!-- ! inline very bad option don't use it very often
+        // examples of inline styling not a good option in the long run  -->
+    <h1 style="color:greenyellow">fkbnflk</h1>
+    <h2>anything</h2>
+    <h2>all h2 will share sam propeerty due to the style element </h2>
+    <h2>anything</h2>
+    <button style="background-color: cadetblue;color:brown">iam a button</button>
+    <h3>will have color specified in the ext css</h3>
+    <!-- . -->
+    <!-- . -->
+    <!-- . -->
+    <!-- . -->
+    <!-- . -->
+    <!-- . -->
+    <!-- . -->
+    <!-- LEC 61 -->
+    <p>fjcjhchj </p>
+    <h4>well hello i am h4 and i am aligned centrally!</h4>
+    <!-- lec 69 css selectors -->
+    <!-- //!   * is a universal selector  -->
+    <!--//? eg
+          *{
+         ?       color:blue {makes every text blue}
+                background : cyan {makes evry background cyan including buttons h1 h2 everything}
+            }
+        
+        
+        
+        -->
+    <!-- //!       next comes element selector
+        ! like button tag or any other like the h1 or image etc
+        like
+        * button{
+        ?    now properties soecified
+        } 
+
+        we can also specify same for different things also like
+        h1,h2{
+            properties specified both will have smae properties
+        }
+        !
+        !-->
+
+    <!-- LEC 70 ID SELECTOR -->
+    <button id="aisehi">experiments with buttons</button>
+    <!-- now how to use class syntax -->
+    <!-- //! first creat a sapn name all the things you want with same name in a class -->
+    <br>
+    <br>
+    <span class="q">nlkjsnldn</span><br><br>
+    <span class="p">nlkjsnldn</span><br><br>
+    <span class="p">nlkjsnldn</span><br><br>
+    <span class="q">nlkjsnldn</span><br><br>
+    <span class="p">nlkjsnldn</span><br><br>
+    <span class="q">nlkjsnldn</span><br><br>
+
+
+    <!-- ? now to use the class p or q we use .classname{prperties in external css file} -->
+
+
+
+    <!-- watch lec 72 again -->
+
+
+
+    <!-- lec 73 -->
+    <div>
+        <ol>
+            <li>kdjbvdkjv</li>
+            <li>cbkj</li>
+        </ol>
+    </div>
+    <ol>
+        <li>jgcvjg</li>
+    </ol>
+    <div>
+        <h4>vhvmhv</h4>
+    </div>
+    <h2>xcdc</h2>
+    <button>xx </button><br>
+    <h1 style='color:red'>vcjhdv</h1>
+    <button>cvdcjhddh</button>
+    <!-- lec 74 attribute selector   -->
+    <!-- ! allows us to select elements based on certain attributes 
+        !  like we can style all the input of the type password and style them in one format and then style the other in type
+         ! in other format
+    !   -->
+    <!-- t eg -->
+    <form action="gdgvd">
+
+        <input type="text">
+        <br>
+        <input type="email">
+    </form>
+    <section class="b">
+        svfbfb<br>sfvfssfvfsv<br>sfbffvveve
+
+    </section>
+    <section class="a">
+        sbvljsvbsjflbv<br>advvbr <br>dbfsbv
+    </section>
+    <!-- lec 75 pseudo class -->
+    <!-- ! 
+    ? In CSS, a pseudo-class is a keyword that is used to select and style elements based on their state or position in the document tree. Pseudo-classes allow you to target elements that cannot be selected using regular selectors alone.
+
+?Pseudo-classes are added to selectors and preceded by a colon (":"). They provide information about the element's state or context, such as whether it is being hovered over, clicked, or the first child of its parent. Here are a few examples of commonly used pseudo-classes:
+
+ ?   :hover: It selects an element when the user hovers over it with the cursor.
+ ?   :active: It selects an element when it is being activated or clicked by the user.
+?  :focus: It selects an element when it receives focus, typically when the user interacts with it using a keyboard or a pointing device.
+   ? :first-child: It selects the first child element of its parent.
+ ?   :last-child: It selects the last child element of its parent.
+  ?  :nth-child(n): It selects the nth child element of its parent, where n can be a number, a keyword, or an expression.
+? visited websites
+? checked
+Pseudo-classes can also be combined with other selectors to create more specific targeting. For example, you can use the :hover pseudo-class with a class or ID selector to style a specific element when it's being hovered over.
+
+Pseudo-classes provide a powerful way to apply styles based on dynamic states or relationships between elements, allowing for more interactive and responsive web designs.
+    !-->
+    <button> bmjmhjzdvfssb</button>
+    <!-- the last one to appear in css will determine if there is confilicting styles for the same elements -->
+    <!-- lec 77 The CSS Cascade  -->
+    <!-- ! it refers to the style applied to any element if there are multiple styles then the one that appeared the last is considered -->
+    <!-- t if multiple are there then the more specific ones will be selected such as 
+    ?  if h1 has style as blue but h1 inside p or with a class or with a id has different then that will be considered more the specific more the higher priority  -->
+
+
+</body>
+
+
+</html>

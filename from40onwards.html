@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- lec 40 table starts here -->
+    <h1 style="color:rgb(139, 210, 238)"><u>Heaviest birds</u></h1>
+    <table>
+        <thead><!--this is to show that this is a header-->
+
+            <tr>
+                <th>bird name </th><!-- well this makes the text bold t header-->
+                <th>avg weight</th>
+                <th>can fly</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr> <!-- for a table row -->
+                <td>ostrich</td><!-- for table data -->
+                <td>106.5</td>
+            </tr>
+            <tr>
+                <td>fbfgbfg</td>
+                <td>fbfgbfg</td>
+                <td>fbfgbfg</td>
+                <td>fbfgbfg</td>
+            </tr>
+
+
+        </tbody>
+
+
+
+
+
+
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- now for columns with two subheadings like in avg mass
+    i can have kilo and pound under avg weight  -->
+
+
+    <h1> table 2</h1>
+    <table>
+        <!-- <colgroup width="300">
+            <col />
+            <col />
+        </colgroup> -->
+        <thead><!--this is to show that this is a header-->
+
+            <tr>
+                <th rowspan="2">bird name </th><!-- well this makes the text bold t header-->
+                <th rowspan="2">avg weight</th>
+                <th>can fly</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr> <!-- for a table row -->
+                <td>ostrich</td><!-- for table data -->
+                <td>106.5</td>
+            </tr>
+            <tr>
+                <td>fbfgbfg</td>
+                <td>fbfgbfg</td>
+                <td>fbfgbfg</td>
+                <td>fbfgbfg</td>
+            </tr>
+
+
+        </tbody>
+
+
+
+
+
+
+    </table>
+
+
+    <!-- LEC 46 the form element -->
+    <h1 style="color:greenyellow"><u>Forms</u></h1>
+    <form action=""></form>
+    <!-- // it is a type of container that will conatain other elements in it or where all the inputs you make are put insode  it's like a box-->
+    <!-- // it also tells where the whre the form data should be sent -->
+
+    <!-- LEC 47 -->
+    <!-- input element is the most used element in the form -->
+    <!-- it is used to accept data from tjhe user -->
+    <!-- //!  -->
+    <!-- //*  -->
+    <!-- //t  -->
+    <!-- // -->
+    <!-- //? -->
+    <form action="\tacos"> <!--//* can also be www.google.com/search or any page it will take]-->
+        <input> <br> <!-- //! defaults to a text input that is just takes input-->
+        <label for="pw">this is a label->enter the password </label>
+        <input id="pw" type="password" name=id> <br>
+        <input type="date"> <br>
+        <input type="file"> <br>
+        <input type="email" placeholder="your email id "> <br>
+        <!--// hmm the placeholder didn't work here why? coz of comma between eamil and placeholder-->
+        color picker <input type="color"> <br>
+        <button>will always take to action = destination mentioned</button>
+    </form>
+    <!-- //t AN EXAMPLE HOW FORMS WORK AND ASK QUERY TO GOOGLE & YOUTUBE -->
+    <br>
+    <form action="https://www.google.com">
+        <input type="text" name='q'>
+        <button>Search in google</button>
+    </form>
+
+
+
+
+    <!-- LEC 49  buttons -->
+    <button>outside the form it will do nothing</button>
+    <!-- lec 53 -->
+    <form>
+        <textarea rows="3" cols="15"
+            placeholder="experiments"></textarea><!--//t   well here i can input any form of texrt so it's useful-->
+    </form>
+    <!-- LEC 54 form validations -->
+    <!-- //! some constraints that must be added to fields in for example password must b=conatin a number special character or must be atleast 8 characters long ectc etc -->
+
+
+    <!-- //? now for  this we need a particular attribute called required -->
+    <h2>Validations demo</h2>
+    <form action="www.google.com">
+
+    </form>
+</body>
+
+</html>
